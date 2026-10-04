@@ -1,0 +1,36 @@
+name: Feature request
+description: Something Telmoni should do
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: The problem
+      description: What you are trying to do, and what stops you today.
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: What you would like
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: What you considered instead
+  - type: dropdown
+    id: where
+    attributes:
+      label: Where
+      multiple: true
+      options:
+        - The console
+        - The server or the API
+        - The CLI or an SDK
+        - Self-hosting with Docker Compose
+        - Self-hosting on Kubernetes
+        - The documentation
+        - Somewhere else
+    validations:
+      required: true

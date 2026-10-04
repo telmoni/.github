@@ -1,0 +1,64 @@
+name: Bug report
+description: Something in Telmoni does not behave as described
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the report. If you suspect a security vulnerability, do not file it here: report it privately as the [security policy](https://docs.telmoni.com/legal/security/#reporting-a-vulnerability) says.
+  - type: textarea
+    id: happened
+    attributes:
+      label: What happened
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: How to reproduce it
+      placeholder: |
+        1. ...
+        2. ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected
+  - type: dropdown
+    id: where
+    attributes:
+      label: Where
+      multiple: true
+      options:
+        - The console
+        - The server or the API
+        - The CLI or an SDK
+        - Self-hosting with Docker Compose
+        - Self-hosting on Kubernetes
+        - The documentation
+        - Somewhere else
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version or commit
+      description: "`telmoni --version`, the image tag, or the commit you built."
+  - type: input
+    id: system
+    attributes:
+      label: Operating system, and browser if it matters
+  - type: textarea
+    id: output
+    attributes:
+      label: Logs or output
+      description: Redact every secret, token and address before pasting.
+      render: shell
+  - type: checkboxes
+    id: searched
+    attributes:
+      label: Before filing
+      options:
+        - label: I searched the existing issues.
+          required: true

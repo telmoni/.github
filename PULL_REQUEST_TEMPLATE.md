@@ -8,4 +8,4 @@
      (https://docs.telmoni.com/contributing/ai-policy/). -->
 
 - [ ] The repository's gate passes (`make ci`, `cargo xtask ci` or `npm run build`)
-- [ ] Commits follow Conventional Commits and are signed off (`git commit -s`)
+- [ ] Commits follow Conventional Commits
