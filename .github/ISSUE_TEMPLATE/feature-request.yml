@@ -34,3 +34,10 @@ body:
         - Somewhere else
     validations:
       required: true
+  - type: checkboxes
+    id: searched
+    attributes:
+      label: Before filing
+      options:
+        - label: I searched the existing issues.
+          required: true

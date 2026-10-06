@@ -44,7 +44,7 @@ body:
     id: version
     attributes:
       label: Version or commit
-      description: "`telmoni --version`, the image tag, or the commit you built."
+      description: "For the CLI, `telmoni --version`. For a server, the image's commit tag or digest (`latest` does not say which build), or the commit you built."
   - type: input
     id: system
     attributes:
