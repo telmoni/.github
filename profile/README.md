@@ -1,6 +1,8 @@
 # Telmoni
 
-A foundation for organizations and their projects: members and roles, API keys, notifications, a hash-chained audit log and a console agent. One Rust binary runs all of it behind a Next.js console. Telmoni has not launched yet.
+Telmoni is building privacy-first telemetry and monitoring for AI agents: every run and the steps inside it, every model and tool call with its tokens, latency and cost, and an alert when an agent stalls, loops, fails or overspends. It keeps them as metadata, leaving prompts and completions out unless a project turns them on.
+
+What exists today is the foundation it builds on: organizations and projects, members and roles, API keys, notifications, a hash-chained audit log and a console agent, run by one Rust binary behind a Next.js console. Nothing records an agent run yet, and Telmoni has not launched.
 
 | Repository | What it holds |
 |---|---|
