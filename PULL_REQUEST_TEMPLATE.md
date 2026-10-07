@@ -7,5 +7,5 @@
 <!-- The repository's gate, plus anything you tried by hand. If AI helped, say how
      (https://docs.telmoni.com/contributing/ai-policy/). -->
 
-- [ ] The repository's gate passes (`make ci`, `cargo xtask ci` or `npm run build`)
+- [ ] The repository's gate passes (`make ci`, `cargo xtask ci`, `npm run build` or `make check`)
 - [ ] Commits follow Conventional Commits
