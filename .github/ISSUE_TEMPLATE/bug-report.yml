@@ -5,7 +5,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for the report. If you suspect a security vulnerability, do not file it here: report it privately as the [security policy](https://docs.telmoni.com/legal/security/#reporting-a-vulnerability) says.
+        Thanks for the report. If you suspect a security vulnerability, do not file it here: report it privately as the [security policy](https://telmoni.com/docs/legal/security#reporting-a-vulnerability) says.
   - type: textarea
     id: happened
     attributes:

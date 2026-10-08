@@ -6,8 +6,8 @@ What exists today is the foundation it builds on: organizations and projects, me
 
 | Repository | What it holds |
 |---|---|
-| [`telmoni`](https://github.com/telmoni/telmoni) | The platform: the server, the console, and the Docker Compose file and Helm chart for self-hosting |
+| [`telmoni`](https://github.com/telmoni/telmoni) | The platform: the server, the console, the documentation it serves at [telmoni.com/docs](https://telmoni.com/docs), and the Docker Compose file and Helm chart for self-hosting |
 | [`telmoni-cli`](https://github.com/telmoni/telmoni-cli) | `telmoni`, the command-line client, and the client SDKs |
 | [`skills`](https://github.com/telmoni/skills) | Agent skills that teach coding agents (Claude Code, Codex, Cursor and others) to work with Telmoni: the CLI, the API, webhooks and self-hosting |
 
-All four are Apache-2.0. [Contributing](https://docs.telmoni.com/contributing/introduction/) · [Support](https://github.com/telmoni/.github/blob/main/SUPPORT.md) · [Security](https://docs.telmoni.com/legal/security/#reporting-a-vulnerability)
+All three are Apache-2.0. [Contributing](https://telmoni.com/docs/contributing/introduction) · [Support](https://github.com/telmoni/.github/blob/main/SUPPORT.md) · [Security](https://telmoni.com/docs/legal/security#reporting-a-vulnerability)
