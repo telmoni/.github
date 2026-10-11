@@ -6,8 +6,9 @@ What exists today: the foundation — organizations and projects, members and ro
 
 | Repository | What it holds |
 |---|---|
-| [`telmoni`](https://github.com/telmoni/telmoni) | The platform: the server, the console, the four SDKs (Python, TypeScript, Go, Rust), the documentation it serves at [telmoni.com/docs](https://telmoni.com/docs), and the Docker Compose file and Helm chart for self-hosting |
+| [`telmoni`](https://github.com/telmoni/telmoni) | The platform: the server, the console, the four SDKs (Python, TypeScript, Go, Rust), and the Docker Compose file and Helm chart for self-hosting |
+| [`docs`](https://github.com/telmoni/docs) | The documentation, which the console builds in and serves at `/docs`: [telmoni.com/docs](https://telmoni.com/docs) |
 | [`telmoni-cli`](https://github.com/telmoni/telmoni-cli) | `telmoni`, the command-line client |
 | [`skills`](https://github.com/telmoni/skills) | Agent skills that teach coding agents (Claude Code, Codex, Cursor and others) to work with Telmoni: the SDKs, the CLI, the API, webhooks and self-hosting |
 
-All three are Apache-2.0. [Contributing](https://telmoni.com/docs/contributing/introduction) · [Support](https://github.com/telmoni/.github/blob/main/SUPPORT.md) · [Security](https://telmoni.com/docs/legal/security#reporting-a-vulnerability)
+All four are Apache-2.0. [Contributing](https://telmoni.com/docs/contributing/introduction) · [Support](https://github.com/telmoni/.github/blob/main/SUPPORT.md) · [Security](https://telmoni.com/docs/legal/security#reporting-a-vulnerability)
