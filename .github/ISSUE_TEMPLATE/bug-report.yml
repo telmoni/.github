@@ -33,7 +33,8 @@ body:
       options:
         - The console
         - The server or the API
-        - The CLI or an SDK
+        - The CLI
+        - An SDK: Python, TypeScript, Go or Rust
         - Self-hosting with Docker Compose
         - Self-hosting on Kubernetes
         - The documentation
