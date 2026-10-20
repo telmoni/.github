@@ -9,3 +9,4 @@
 
 - [ ] The repository's gate passes (`make ci`, `cargo xtask ci` or `make check`)
 - [ ] Commits follow Conventional Commits
+- [ ] Every commit is signed off (`git commit -s`), certifying the [Developer Certificate of Origin](https://developercertificate.org/)
