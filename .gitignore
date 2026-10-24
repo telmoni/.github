@@ -10,6 +10,7 @@
 .gemini/
 .aider*
 .cursor/
+skills
 
 # ── Local ─────────────────────────────────────────────────────────────────────
 # The maintainer's own notes, never repo docs.
