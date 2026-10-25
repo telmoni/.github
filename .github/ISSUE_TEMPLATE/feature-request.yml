@@ -33,6 +33,7 @@ body:
         - Self-hosting on Kubernetes
         - The documentation
         - The agent skills
+        - A coding-agent plugin: Claude Code, Codex, OpenCode or Cursor
         - Somewhere else
     validations:
       required: true

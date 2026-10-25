@@ -39,6 +39,7 @@ body:
         - Self-hosting on Kubernetes
         - The documentation
         - The agent skills
+        - A coding-agent plugin: Claude Code, Codex, OpenCode or Cursor
         - Somewhere else
     validations:
       required: true
@@ -46,7 +47,7 @@ body:
     id: version
     attributes:
       label: Version or commit
-      description: "For the CLI, `telmoni --version`. For a server, the image's commit tag or digest (`latest` does not say which build), or the commit you built. For the agent skills, the commit you installed."
+      description: "For the CLI, `telmoni --version`. For a server, the image's commit tag or digest (`latest` does not say which build), or the commit you built. For the agent skills, the commit you installed. For a coding-agent plugin, its version."
   - type: input
     id: system
     attributes:
