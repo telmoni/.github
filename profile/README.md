@@ -2,7 +2,7 @@
 
 Telmoni is building privacy-first observability for AI agents: every run and the steps inside it, every model and tool call with its tokens, latency and cost, and an alert when an agent stalls, loops, fails or overspends. It keeps them as metadata, leaving prompts and completions out unless a project turns them on.
 
-What exists today: the foundation — organizations and projects, members and roles, API keys, notifications, a hash-chained audit log and a console agent, run by one Rust binary and a Next.js console — and the first of the telemetry on it: SDKs in four languages that record an agent's runs, a plugin each for Claude Code, Codex, OpenCode and Cursor that records the coding agent's own turns, ingest, which keeps each run as metadata with prompts and completions dropped at the door, and a console that reads them as traces, sessions and users. Alerts are not built yet, and Telmoni has not launched.
+Telmoni has not launched and is not at 1.0. Until it is, expect it to change every month: better each time, and sometimes incompatibly, as names, endpoints and console pages move while we find out what works. Not everything above is built yet; alerts, for one, are not.
 
 | Repository | What it holds |
 |---|---|
