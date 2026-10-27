@@ -1,6 +1,6 @@
 # Telmoni's .github — Agent Guidelines
 
-The organization's community files ([`telmoni/.github`](https://github.com/telmoni/.github)): the profile (`profile/README.md`) and the defaults every Telmoni repository without its own falls back to — `CONTRIBUTING.md`, `CODE_OF_CONDUCT.md`, `SECURITY.md`, `SUPPORT.md`, the pull request template and the issue forms (`.github/ISSUE_TEMPLATE/`). Most point into the book ([`telmoni/docs`](https://github.com/telmoni/docs)), which holds the substance. The repository is public, and every file in it is published as written.
+The organization's community files ([`telmoni/.github`](https://github.com/telmoni/.github)): the profile (`profile/README.md`) and the defaults every Telmoni repository without its own falls back to — `CONTRIBUTING.md`, `CODE_OF_CONDUCT.md`, `SECURITY.md`, `SUPPORT.md`, the pull request template and the issue forms (`.github/ISSUE_TEMPLATE/`). Most point into the book (telmoni.com/docs, `web/content/docs` in [`telmoni/telmoni`](https://github.com/telmoni/telmoni)), which holds the substance. The repository is public, and every file in it is published as written.
 
 ## Git Rules
 - Commit only when asked: never `git add` or `git commit` unprompted.
