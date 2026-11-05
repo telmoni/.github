@@ -1,6 +1,6 @@
 # Telmoni
 
-**Open-source monitoring for AI agents.** Know when your agents fail, stall, loop or overspend, and stop them at the cap you set, without sending us a single prompt.
+**Open-source monitoring for AI agents.** Know when your agents fail, stall, loop or overspend, and stop them at the cap you set. Prompts stay in your process unless you turn content on.
 
 Telmoni watches the agents you run, whether a Python service, a nightly batch, a LangGraph graph or a Claude Code session. It alerts you when a run fails, loops on one tool, is left open, costs past its cap, or when runs stop arriving, and shows you the run that did it. The SDKs' guard stops a run at the caps on its steps and spend, inside your own process. Telemetry is metadata by default; prompts, replies, tool calls and images are kept in full only where a project's owner turns content on, sealed under that project's own key.
 
