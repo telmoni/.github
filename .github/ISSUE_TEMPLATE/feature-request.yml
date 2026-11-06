@@ -28,12 +28,11 @@ body:
         - The console
         - The server or the API
         - The CLI
-        - An SDK: Python, TypeScript, Go or Rust
+        - "An SDK: Python, TypeScript, Go or Rust"
         - Self-hosting with Docker Compose
         - Self-hosting on Kubernetes
         - The documentation
-        - The agent skills
-        - A coding-agent plugin: Claude Code, Codex, OpenCode or Cursor
+        - "A coding-agent plugin: Claude Code or Antigravity"
         - Somewhere else
     validations:
       required: true
