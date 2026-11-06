@@ -7,6 +7,6 @@
 <!-- The repository's gate, plus anything you tried by hand. If AI helped, say how
      (https://telmoni.com/docs/contributing/ai-policy). -->
 
-- [ ] The repository's gate passes (`make ci`, `cargo xtask ci`, `npm run verify` and `npm run validate`, or `scripts/check.sh`)
+- [ ] The repository's gate passes (`make ci`, `cargo xtask ci`, or `npm run verify` and `npm run validate`)
 - [ ] Commits follow Conventional Commits
 - [ ] Every commit is signed off (`git commit -s`), certifying the [Developer Certificate of Origin](https://developercertificate.org/)
