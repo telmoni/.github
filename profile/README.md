@@ -1,4 +1,7 @@
-# Telmoni
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="logo-white.svg">
+  <img src="logo.svg" alt="Telmoni" width="320">
+</picture>
 
 **Open-source monitoring for AI agents.** Know when your agents fail, stall, loop or overspend, and stop them at the cap you set. Prompts stay in your process unless you turn content on.
 
