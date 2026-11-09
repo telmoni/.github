@@ -38,7 +38,7 @@ body:
         - Self-hosting with Docker Compose
         - Self-hosting on Kubernetes
         - The documentation
-        - "A coding-agent plugin: Claude Code or Antigravity"
+        - "A coding-agent plugin: Claude Code, Codex or Antigravity"
         - Somewhere else
     validations:
       required: true
