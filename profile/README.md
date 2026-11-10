@@ -7,7 +7,9 @@
 
 **Privacy-first, open-source monitoring for AI agents.** Know when your agents fail, stall, loop or overspend, and stop them at the cap you set. Prompts stay in your process unless you turn content on.
 
-Telmoni watches the agents you run, whether a Python service, a nightly batch, a LangGraph graph or a Claude Code session. It alerts you when a run fails, loops on one tool, is left open, costs past its cap, or when runs stop arriving, and shows you the run that did it. The SDKs' guard stops a run at the caps on its steps and spend, inside your own process. Telemetry is metadata by default; prompts, replies, tool calls and images are kept in full only where a project's owner turns content on and your code asks for it, sealed under that project's own key.
+Telmoni watches the agents you run, whether a Python service, a nightly batch, a LangGraph graph or a Claude Code, Codex or Antigravity session. Use the [SDKs](https://telmoni.com/docs/api/sdks) to instrument your own agents, or install a [coding-agent plugin](https://telmoni.com/docs/api/coding-agents) to record each turn of Claude Code, Codex or Antigravity as a run, with its model calls, tokens, tools, timings and outcome, with no code to write.
+
+It alerts you when a run fails, loops on one tool, is left open, costs past its cap, or when runs stop arriving, and shows you the run that did it. The SDKs' guard stops a run at the caps on its steps and spend, inside your own process. Telemetry is metadata by default; prompts, replies, tool calls and images are kept in full only where a project's owner turns content on and you enable capture in your code or plugin, sealed under that project's own key.
 
 ## WARNING
 
