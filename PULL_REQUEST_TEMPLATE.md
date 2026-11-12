@@ -5,7 +5,7 @@
 ## How it was checked
 
 <!-- The repository's gate, plus anything you tried by hand. If AI helped, say how
-     (https://telmoni.com/docs/contributing/ai-policy). -->
+     (https://github.com/telmoni/.github/blob/main/CONTRIBUTING.md#ai-policy). -->
 
 - [ ] The repository's gate passes (`make ci`, `cargo xtask ci`, or `npm run verify` and `npm run validate`)
 - [ ] Commits follow Conventional Commits

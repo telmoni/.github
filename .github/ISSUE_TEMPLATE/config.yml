@@ -3,10 +3,10 @@
 blank_issues_enabled: true
 contact_links:
   - name: Report a security vulnerability (private)
-    url: https://telmoni.com/docs/legal/security#reporting-a-vulnerability
+    url: https://github.com/telmoni/.github/blob/main/SECURITY.md
     about: >-
       Please do not open a public issue for a suspected vulnerability. The policy explains how to
       report it privately, through the repository's Security tab or by mail.
   - name: Documentation
-    url: https://telmoni.com/docs
-    about: Self-hosting, the console, the CLI, the SDKs, the Claude Code, Codex and Antigravity plugins and the API are documented there.
+    url: https://github.com/telmoni/telmoni#readme
+    about: Self-hosting, the console, the SDKs and the API are documented in the platform's repository; the CLI and each plugin in their own.
